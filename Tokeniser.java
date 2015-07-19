@@ -7,6 +7,8 @@ import gate.creole.SerialAnalyserController;
 import java.io.File;
 import java.net.MalformedURLException;
 
+//Author: Nuo Shi
+
 public class Tokeniser{
 	private static gate.Corpus corpus;
 	
