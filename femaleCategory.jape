@@ -1,0 +1,10 @@
+Phase: firstpass
+Input: @INPUT_ANNOTATION@
+
+Rule: @RULE_NAME@
+Priority:@RULE_PRIORITY@
+(
+{@INPUT_ANNOTATION@.majorType=="person_first",@INPUT_ANNOTATION@.minorType=="female"}
+):label
+-->
+:label.female={rule="@RULE_NAME@"}
